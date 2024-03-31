@@ -1,0 +1,211 @@
+.definition {
+    font-size: 32px;
+  }
+  
+  .think {
+    font-size: 24px;
+  }
+  
+  .scenarios {
+    display: flex;
+  }
+  
+  .scenario {
+    width: 50%;
+  }
+  
+  .day-night {
+    width: 40%;
+    height: 160px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/border.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .day-night .img {
+    width: 80%;
+    height: 85%;
+    border: 1px solid black;
+  }
+  
+  .scenario p {
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .setting {
+    font-size: 20px;
+  }
+  
+  .guesses {
+    font-size: 20px;
+    display: flex;
+  }
+  
+  .guesses .query {
+    width: 13%;
+  }
+  
+  .guess {
+    width: 72%;
+    height: 40px;
+    margin-top: 1%;
+    background-image: url('./images/guess.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .guess input {
+    width: 90%;
+    height: 85%;
+    display: block;
+    border: none;
+    font-family: "Short Stack", cursive;
+    font-size: 20px;
+  }
+  
+  .guess input:focus {
+    outline: none;
+  }
+  
+  .hint {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .hint-img {
+    margin-top: 2%;
+  }
+  
+  .explanation {
+    margin-top: 2%;
+    height: 80px;
+    background-color: #25A3A1;
+    border-style: dashed;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .explanation p {
+    font-size: 24px;
+    width: 97%;
+    height: 90%;
+  }
+  
+  .time-story {
+    font-size: 20px;
+  }
+
+  /* Media queries */
+
+  @media (min-width:992px) and (max-width:1199px){
+    .definition {
+      font-size: 24px;
+    }
+
+    .think {
+      font-size: 18px;
+    }
+
+    .day-night {
+      width: 40%;
+      max-height: 120px;
+    }
+
+    .scenario p {
+      font-size: 14px;
+    }
+
+    .setting {
+      font-size: 14px;
+    }
+
+    .guesses {
+      font-size: 14px;
+    }
+
+    .guess {
+      width: 60%;
+      height: 30px;
+    }
+
+    .guess input {
+      font-size: 14px;
+    }
+
+    .hint {
+      width: 25%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .explanation p {
+      font-size: 18px;
+    }
+
+    .time-story {
+      font-size: 14px;
+    }
+  }
+
+  @media (min-width:768px) and (max-width:991px){
+    .definition {
+      font-size: 24px;
+    }
+
+    .think {
+      font-size: 18px;
+    }
+
+    .day-night {
+      width: 40%;
+      max-height: 120px;
+    }
+
+    .scenario p {
+      font-size: 14px;
+    }
+
+    .setting {
+      font-size: 14px;
+    }
+
+    .guesses {
+      font-size: 14px;
+    }
+
+    .guess {
+      width: 60%;
+      height: 30px;
+    }
+
+    .guess input {
+      font-size: 14px;
+    }
+
+    .hint {
+      width: 25%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .explanation p {
+      font-size: 18px;
+    }
+
+    .time-story {
+      font-size: 14px;
+    }
+  }

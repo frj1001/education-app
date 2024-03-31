@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+.main {
+  display: flex;
+  height: 110vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left-panel {
+  width: 5%;
+  display: flex;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left-panel .container {
+  height: 90%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.page-content {
+  width: 90%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.page-content .container {
+  width: 95%;
+  height: 95%;
+  background-color: white;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+.inner-container {
+  width: 95%;
+  margin: auto;
+}
+
+
+
+.right {
+  width: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.right .container {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Media Queries for Responsiveness */
+
+
+@media (min-width:1200px) and (max-width:1399px){
+  .main {
+      height: 80vh;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width:992px) and (max-width:1199px){
+  .main {
+      height: 60vh;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px){
+  .main {
+      height: 65vh;
   }
 }

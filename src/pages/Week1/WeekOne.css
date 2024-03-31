@@ -1,0 +1,143 @@
+.heading-img {
+    background-image: url('./images/heading.png');
+    height: 80px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    border: 1px solid white;
+  }
+  
+  .heading-img p {
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    margin-top: 4%;
+  }
+  
+  .welcome {
+    font-size: 24px;
+  }
+  
+  .intro {
+    margin-top: -1%;
+    font-size: 24px;
+    display: flex;
+    border-style: dashed;
+    background-color: #25A3A1;
+    color: white;
+    border-color: white;
+  }
+  
+  .intro p {
+    width: 90%;
+  }
+  
+  .intro .img {
+    width: 10%;
+    max-height: 150px;
+  }
+  
+  .elements {
+    margin-top: 1%;
+    max-height: 100px;
+    display: flex;
+  }
+  
+  .familiar {
+    font-size: 24px;
+  }
+  
+  .element {
+    width: 20%;
+  }
+  
+  .practice {
+    background-image: url('./images/practice.png');
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid white;
+  }
+  
+  .practice p {
+    font-size: 24px;
+    margin-top: 1%;
+    margin-left: 5.5%;
+  }
+  
+  .practice p:nth-child(2) {
+    margin-top: -1%;
+  }
+
+  /* Media Queries for Responsiveness */
+
+
+
+@media (min-width:992px) and (max-width:1199px){
+  .heading-img {
+    height: 60px;
+    width: 400px;
+  }
+
+  .heading-img p {
+    font-size: 24px;
+   
+  }
+
+  .welcome {
+    font-size: 18px;
+  }
+
+  .intro {
+    font-size: 18px;
+  }
+
+  .element img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .familiar {
+    font-size: 18px;
+  }
+
+  .practice p {
+    font-size: 18px;
+    
+  }
+}
+
+@media (min-width:768px) and (max-width:991px){
+  .heading-img {
+    height: 60px;
+    width: 400px;
+  }
+
+  .heading-img p {
+    font-size: 24px;
+   
+  }
+
+  .welcome {
+    font-size: 18px;
+  }
+
+  .intro {
+    font-size: 18px;
+  }
+
+  .element img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .familiar {
+    font-size: 18px;
+  }
+
+  .practice p {
+    font-size: 18px;
+    
+  }
+}

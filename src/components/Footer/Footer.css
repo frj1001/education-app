@@ -1,0 +1,10 @@
+.footer .container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .controller {
+    display: flex;
+  }
